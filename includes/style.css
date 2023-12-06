@@ -1,0 +1,187 @@
+.header {
+    background-color:rgb(134, 56, 89);
+    color:white;
+    text-align:block, center;
+    padding:5px;
+}
+/* unvisited link */
+.header a:link {
+    color: red;
+}
+
+/* visited link */
+.header a:visited {
+    color: green;
+}
+
+/* mouse over link */
+.header a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+.header a:active {
+    color: blue;
+}
+
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+/* Add custom CSS for the form */
+
+/* Center the form on the page */
+.container {
+    text-align: center;
+}
+
+/* Style the form header */
+form {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels */
+label {
+    font-weight: bold;
+}
+
+/* Style form inputs and textareas */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Style the submit button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+/* Style for the footer */
+.footer {
+    padding: 50px 0;
+}
+
+.footer h3 {
+    color: #fff;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style for social icons */
+.list-inline-item a {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.list-inline-item a:hover {
+    color: #007bff;
+}
